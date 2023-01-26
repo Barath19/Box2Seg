@@ -82,7 +82,6 @@ if __name__ == '__main__':
     # print documentation
     print(__doc__)
 
-    print('image',len(sys.argv))
     # Loading images
     if len(sys.argv) == 2:
         filename = sys.argv[1] # for drawing purposes
